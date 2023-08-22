@@ -1,0 +1,18 @@
+
+Agenda -
+
+End To End Data Science
+
+1. Git & Github Repository setup
+2. Project setup
+3. Requirements.txt 
+
+
+
+-------------
+
+
+Steps to start any projects -
+
+1] Create Environment - make sure different types of projects pacjkages & liblaries are different
+
