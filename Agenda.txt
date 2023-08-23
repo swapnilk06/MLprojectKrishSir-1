@@ -6,8 +6,24 @@ End To End Data Science
 1. Git & Github Repository setup
 2. Project setup
 3. Requirements.txt 
+4. Project setup using setup.py
+   - setup.py --> your whole application make as a "package" ==> specificly write setup.py
+   - because application neccesary info like package owner, package maintainer, package author, package URL all info regarding packages
+   - making application time we properly packaging even move into "pypi" ==> numpy pypi
+   - pypi --> it platform for insert all "OpeSource packages & liblaries"
+   - MAKE ALL ENTIRE APPLICATION AS A "PACKAGE" - & he was also able to import the package
+   - MAKING OF PACKAGES we have to use "setup.py"
 
+- Tenserflow opensource ML Framework introduced by Google currently its opensource
 
+5. create setup.py
+6. create src folder after it create __init__.py file
+7. Run setup.py
+   - python setup.py install
+   OR
+   - create -e . in requirements.txt to trigger setup.py automatic & write code for not consider its package
+   - after creating simply run --> pip install -r requirements.txt
+==> & SUCCESSFULLY CREATE PACKAGES
 
 -------------
 
@@ -15,4 +31,35 @@ End To End Data Science
 Steps to start any projects -
 
 1] Create Environment - make sure different types of projects pacjkages & liblaries are different
+
+2] conda create -p venv python=3.9 -y
+
+3] conda activate venv/
+
+4] git init
+
+5] make README folder - & add 
+   git add README.md
+
+6] git commit -m "first commit"  
+
+7] git branch -M main
+   git branch
+
+8] point git init to the Repository -
+   git remote add origin https://github.com/swapnilk06/MLprojectKrishSir-1.git
+
+9] push git origin to main -
+
+10] create .gitignore in Repository --> new file .gitignore --> template python 
+
+11] pull .gitignore (origin) to main -
+    git pull origin main
+
+12] create requiremnts.txt
+    pip install -r requirements.txt
+
+
+
+
 
